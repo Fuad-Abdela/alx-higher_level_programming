@@ -8,4 +8,4 @@ def weight_average(my_list=[]):
         return 0
     i_xy = sum(map(lambda a: a[0] * a[1], my_list))
     i_x = sum(map(lambda a: a[1], my_list))
-    return i_xy / 
+    return i_xy / i_x
